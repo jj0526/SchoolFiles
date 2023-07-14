@@ -1,0 +1,19 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.c": "c",
+        "stdio.h": "c",
+        "limits": "c",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "ranges": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "cmath": "cpp",
+        "unordered_map": "cpp",
+        "initializer_list": "cpp"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}

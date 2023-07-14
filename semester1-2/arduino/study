@@ -1,0 +1,35 @@
+pinMode(13,OUTPUT);
+pinMode(12,INPUT);
+
+digitalWrite(13,HIGH);
+delay(1000);
+
+int value = digitalRead(12);
+
+for (int i = 0; i<256; i++){
+    analogWrite(3,i);
+    delay(10);
+}
+
+Serial.begin(9600);
+Serial.print(val);
+
+Serial.read() // i dont know about this
+int par = Serial.parseInt();
+
+val = analogRead(A0);
+Serial.println(val);
+
+Serial.write(49); // send a byte “1” with the value 49
+
+
+Serial.available(49); // send a byte “1” with the value 49
+
+Serial.read(incomingByte);
+
+val = map(val, 0, 1023, 0, 255);
+
+print : literally write : changed into ascii
+
+int par=Serial.parseInt();
+Serial.println(par);

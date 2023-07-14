@@ -1,0 +1,44 @@
+hw2
+1. sports
+	baseball
+		LG.txt, Sk.txt, NC.txt
+	soccer
+		Seoul.txt, Ulsan.txt
+2. movie
+	action
+		hollywood
+			avengers.txt : 내용 쓰기
+		korean
+	comedy
+
+
+mkdir hw2
+cd hw2
+mkdir sports
+cd sports
+mkdir baseball
+cd baseball
+touch LG.txt
+touch SK.txt
+touch NC.txt
+cd ..
+
+mkdir soccer
+touch Seoul.txt
+touch Ulsan.txt
+
+cd ..
+cd ..
+mkdir movie
+cd movie
+mkdir action
+cd action
+mkdir hollywood
+mkdir korean
+cd hollywood
+vi avergers.txt
+(내용쓰기)
+
+cd ..
+cd ..
+mkdir comedy
